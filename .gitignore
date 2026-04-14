@@ -1,0 +1,43 @@
+# Dependencies
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/.vite/
+**/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime/process artifacts
+*.pid
+*.seed
+*.pid.lock
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Backend runtime data
+backend/backups/
+backend/data/uploads/
+
+# Temporary files
+*.tmp
+*.temp
